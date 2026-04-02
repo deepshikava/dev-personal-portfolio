@@ -1,6 +1,6 @@
 import { Button } from "@/components/Button";
 import { Menu, X } from "lucide-react";
-import { useState } from "react";
+import { useState, useEffect } from "react";
 
 const navLinks = [
   {
@@ -27,9 +27,23 @@ const navLinks = [
 
 export const Navbar = () => {
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
+  const [isScrolled, setIsScrolled] = useState(false);
+
+  useEffect(() => {
+    const handleScroll = () => {
+      setIsScrolled(window.scrollY > 50);
+    };
+    window.addEventListener("scroll", handleScroll);
+
+    return () => {
+      window.removeEventListener("scroll", handleScroll);
+    };
+  }, []);
 
   return (
-    <header className="fixed top-0 left-0 right-0 w-full bg-transparent py-5">
+    <header
+      className={`fixed top-0 left-0 right-0 w-full transition-all duration-500 ${isScrolled ? "glass-strong py-3" : "bg-transparent py-5"} z-50`}
+    >
       <nav className="container mx-auto px-6 flex item-center justify-between">
         <a
           href="#"
