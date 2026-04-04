@@ -5,7 +5,7 @@ const experiences = [
     company: "United Overseas Bank (UOB) - Singapore",
     description:
       "Contributed to the development of UOB Infinity, a corporate banking platform, by building and enhancing application features aligned with client requirements. Gained strong domain expertise in regional payment systems across SG, MY, HK, VN, and other markets, while supporting transitions to GST (Global Soft Token) and BoatSize teams with region-specific customizations. Collaborated closely with other teams to scope requirements, design optimal integrations, and deliver scalable web apps in a fast-paced Agile environment.",
-    technologies: ["React", "Redux", "Material UI", "Jest"],
+    technologies: ["React", "Redux", "Material UI", "Tailwind CSS", "Jest"],
     current: true,
   },
   {
