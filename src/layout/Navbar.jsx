@@ -19,10 +19,6 @@ const navLinks = [
     href: "#testimonials",
     label: "Testimonials",
   },
-  {
-    href: "#contact",
-    label: "Contact",
-  },
 ];
 
 export const Navbar = () => {
@@ -70,7 +66,9 @@ export const Navbar = () => {
 
         {/** Call To Action Button */}
         <div className="hidden md:block">
-          <Button size="sm">Contact Me</Button>
+          <a href="#contact">
+            <Button size="sm">Contact Me</Button>
+          </a>
         </div>
 
         {/** Mobile Menu Button */}
@@ -96,8 +94,9 @@ export const Navbar = () => {
                 {link.label}
               </a>
             ))}
-
-            <Button>Contact Me</Button>
+            <a href="#contact">
+              <Button>Contact Me</Button>
+            </a>
           </div>
         </div>
       )}
