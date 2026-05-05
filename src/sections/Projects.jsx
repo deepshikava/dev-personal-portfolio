@@ -5,9 +5,21 @@ const projects = [
   {
     title: "Expense Tracker",
     description:
-      "A comprehensive financial analytics platform with real-time data visualization, portfolio management, and AI-powered insights.",
+      "A clean, interactive personal finance tracker built with React. Track income, expenses, and spending trends — all in one dashboard",
     image: "/projects/expense_tracker.png",
-    tags: ["React", "Typescript", "NodeJS"],
+    tags: [
+      "React",
+      "Vite",
+      "tailwind CSS",
+      "Recharts",
+      "React Router",
+      "NodeJS",
+      "ExpressJS",
+      "MongoDB + Mongoose",
+      "JWT (jsonwebtoken)",
+      "bcryptjs",
+      "CORS",
+    ],
     link: "https://expense-tracker-frontend-roan-pi.vercel.app",
     github: "https://github.com/deepshikava/expense-tracker/tree/main",
   },
