@@ -3,13 +3,13 @@ import { FaGithub } from "react-icons/fa";
 import { AnimatedBorderButton } from "@/components/AnimatedBorderButton";
 const projects = [
   {
-    title: "Fintech Dashboard",
+    title: "Expense Tracker",
     description:
       "A comprehensive financial analytics platform with real-time data visualization, portfolio management, and AI-powered insights.",
-    image: "/projects/project1.png",
+    image: "/projects/expense_tracker.png",
     tags: ["React", "Typescript", "NodeJS"],
-    link: "#",
-    github: "#",
+    link: "https://expense-tracker-frontend-roan-pi.vercel.app/login",
+    github: "https://github.com/deepshikava/expense-tracker/tree/main",
   },
   {
     title: "E-Commerce Platform",
