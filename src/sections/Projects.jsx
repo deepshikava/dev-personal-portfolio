@@ -8,7 +8,7 @@ const projects = [
       "A comprehensive financial analytics platform with real-time data visualization, portfolio management, and AI-powered insights.",
     image: "/projects/expense_tracker.png",
     tags: ["React", "Typescript", "NodeJS"],
-    link: "https://expense-tracker-frontend-roan-pi.vercel.app/login",
+    link: "https://expense-tracker-frontend-roan-pi.vercel.app",
     github: "https://github.com/deepshikava/expense-tracker/tree/main",
   },
   {
