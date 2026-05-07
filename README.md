@@ -1,4 +1,4 @@
-# 🚀 dev-personal-portfolio
+# 🚀 deepshika-personal-portfolio
 
 A modern, responsive **personal developer portfolio** built with **React 19** and **Vite**, styled with **Tailwind CSS v4**, and deployed on Vercel. It features sections for showcasing skills, projects, experience, and a functional contact form powered by EmailJS.
 
