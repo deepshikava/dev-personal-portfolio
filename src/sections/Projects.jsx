@@ -26,11 +26,19 @@ const projects = [
   {
     title: "E-Commerce Platform",
     description:
-      "A full-featured e-commerce solution with inventory management, payment processing, and analytics dashboard.",
-    image: "/projects/project2.png",
-    tags: ["Next.js", "Stripe", "PostgreSQL", "Tailwind"],
-    link: "#",
-    github: "#",
+      "A modern, type-safe e-commerce web application built with React 19, TypeScript, and Vite — featuring a full shopping experience with product browsing, cart management, checkout, and order tracking.",
+    image: "/projects/ecommerce_react_project.png",
+    tags: [
+      "React",
+      "Typescript",
+      "Vite",
+      "React Router",
+      "Axios",
+      "Vitest",
+      "ESLint",
+    ],
+    link: "http://ecommerce-project-react-env.eba-qpkqcbgg.ap-southeast-1.elasticbeanstalk.com/",
+    github: "https://github.com/deepshikava/react-ecommerce-project-ts",
   },
   {
     title: "AI Writing Assistant",
@@ -147,10 +155,12 @@ export const Projects = () => {
 
         {/* View All CTA */}
         <div className="text-center mt-12 animate-fade-in animation-delay-500">
-          <AnimatedBorderButton>
-            View All Projects
-            <ArrowUpRight className="w-5 h-5" />
-          </AnimatedBorderButton>
+          <a href="https://github.com/deepshikava?tab=repositories">
+            <AnimatedBorderButton>
+              View All Projects
+              <ArrowUpRight className="w-5 h-5" />
+            </AnimatedBorderButton>
+          </a>
         </div>
       </div>
     </section>
