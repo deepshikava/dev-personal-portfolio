@@ -44,7 +44,7 @@ const projects = [
     title: "Real-Time Weather Dashboard",
     description:
       "Klimate — A real-time weather dashboard with geolocation, interactive charts, dark mode, and favourite cities, built with React, TypeScript, and Tailwind CSS.",
-    image: "/projects/project3.png",
+    image: "/projects/weather-dashboard.png",
     tags: [
       "React",
       "TypeScript",
