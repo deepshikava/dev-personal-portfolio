@@ -41,13 +41,21 @@ const projects = [
     github: "https://github.com/deepshikava/react-ecommerce-project-ts",
   },
   {
-    title: "AI Writing Assistant",
+    title: "Real-Time Weather Dashboard",
     description:
-      "An intelligent writing tool powered by GPT-4, helping users create better content faster.",
+      "Klimate — A real-time weather dashboard with geolocation, interactive charts, dark mode, and favourite cities, built with React, TypeScript, and Tailwind CSS.",
     image: "/projects/project3.png",
-    tags: ["React", "OpenAI", "Python", "FastAPI"],
-    link: "#",
-    github: "#",
+    tags: [
+      "React",
+      "TypeScript",
+      "Tailwind CSS",
+      "shadcn/ui + Radix UI",
+      "TanStack Query (React Query)",
+      "React Router DOM",
+      "Recharts",
+    ],
+    link: "https://klimate-six.vercel.app/",
+    github: "https://github.com/deepshikava/klimate",
   },
   {
     title: "Project Management Tool",
