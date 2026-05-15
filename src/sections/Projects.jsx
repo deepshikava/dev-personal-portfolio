@@ -58,13 +58,21 @@ const projects = [
     github: "https://github.com/deepshikava/klimate",
   },
   {
-    title: "Project Management Tool",
+    title: "Product Inventory App",
     description:
-      "A collaborative workspace for teams with real-time updates, task tracking, and integrations.",
-    image: "/projects/project4.png",
-    tags: ["Next.js", "Socket.io", "MongoDB", "Redis"],
-    link: "#",
-    github: "#",
+      "A sleek, data-rich interface for managing and tracking Products - stock/inventory data",
+    image: "/projects/stock-inventory.png",
+    tags: [
+      "Next.js",
+      "React",
+      "Typescript",
+      "TailwindCSS",
+      "Shadcn/ui",
+      "Zustand",
+      "Tanstack-Table",
+    ],
+    link: "https://stockly-umber.vercel.app/",
+    github: "https://github.com/deepshikava/stockly",
   },
 ];
 
