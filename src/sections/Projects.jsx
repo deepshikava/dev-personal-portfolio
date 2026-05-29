@@ -152,7 +152,7 @@ export const Projects = () => {
                    group-hover:-translate-y-1 transition-all"
                     />
                   </div>
-                  <p className="text-muted-foreground text-sm">
+                  <p className="text-muted-foreground text-sm py-4">
                     {project.description}
                   </p>
                   <div className="flex flex-wrap gap-2">
